@@ -17,6 +17,8 @@ int main()
     cout << "\n";
 
     cout << "Sua idade é: " << idade << endl;
-
+    
+    cout << "Seu nome " + nome + " sua idade " << idade << "\n";
+    
     return 0;
 }
