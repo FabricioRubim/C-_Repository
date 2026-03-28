@@ -11,5 +11,6 @@ int main(){
     pessoa joao = {"João", 20};
     cout << joao.nome << endl;
     cout << joao.idade << endl;
+    cout << nome.len() << endl;
     return 0;
 }
