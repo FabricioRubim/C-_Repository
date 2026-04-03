@@ -3,10 +3,11 @@
 int main(){
 
     int a, b, result;
-    a = 10;
-    b = 5;
-    result = a << b * 3;
-    result = a >> b / 3;
+    std::cout << "Digite os numero a e b: " << "\n";
+    std::cin >> a >> b;
+
+    result = a << b * 2;
+    result = a >> b / 2;
 
     std::cout << result << std::endl;
     std::cout << result << std::endl;
